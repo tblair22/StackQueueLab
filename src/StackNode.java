@@ -6,7 +6,6 @@ This is the StackNode class that is used in stack and the Stack Queue
 public class StackNode<E>{
 
     private final E data;
-
     private final StackNode<E> child;
 
     public StackNode(){//default
@@ -14,19 +13,19 @@ public class StackNode<E>{
         child = null;
     }
 
-    public StackNode(E data){
+    public StackNode(E data){// second constructor
         this.data = data;
 
         child = null;
     }
-    public StackNode(E data, StackNode<E> child) {
+    public StackNode(E data, StackNode<E> child) {//third constructor
 
         this.data = data;
         this.child = child;
     }
 
 
-    public E getData() {
+    public E getData() {//returns the data
 
         return data;
     }
@@ -34,4 +33,6 @@ public class StackNode<E>{
     public StackNode<E> getChild() {
         return child;
     }
+
+
 }

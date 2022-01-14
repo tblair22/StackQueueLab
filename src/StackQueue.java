@@ -35,8 +35,9 @@ public class StackQueue <T>{
         return s.size() == 0;
     }
 
-    int size(){
+    int size(){//returns the size
         return s.size();
+
     }
 
     T peek(){//checks what the first element is
