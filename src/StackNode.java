@@ -9,7 +9,7 @@ public class StackNode<E>{
 
     private final StackNode<E> child;
 
-    public StackNode(){
+    public StackNode(){//default
         data = null;
         child = null;
     }
@@ -24,6 +24,8 @@ public class StackNode<E>{
         this.data = data;
         this.child = child;
     }
+
+
     public E getData() {
 
         return data;
