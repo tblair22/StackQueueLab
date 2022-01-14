@@ -4,8 +4,6 @@ Trent Blair
 This tests the StackQueue class
  */
 public class StackQueueTester {
-
-
     public static void main(String[] args) {
 
         StackQueue<Integer> q = new StackQueue<>();

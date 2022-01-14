@@ -9,7 +9,7 @@ public class Stack<E>{
     private StackNode<E> topNode;
     private int size;
 
-    public Stack() {}
+    public Stack(){}//default
 
     public void push(E element){
 
@@ -19,7 +19,7 @@ public class Stack<E>{
         size++;//adds one to size after element is pushed
     }
 
-    public E pop(){
+    public E pop(){//pops out the top node
 
         E ret = topNode.getData();
         size--;
@@ -38,7 +38,7 @@ public class Stack<E>{
         return size;
     }
 
-    public E peek(){
+    public E peek(){//peeks
         return topNode.getData();
     }
 
